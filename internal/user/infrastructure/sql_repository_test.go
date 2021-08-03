@@ -2,12 +2,13 @@ package infrastructure
 
 import (
 	"context"
-	"github.com/DATA-DOG/go-sqlmock"
-	"github.com/google/uuid"
-	"github.com/stretchr/testify/assert"
 	"meli-bootcamp-storage/internal/models"
 	"meli-bootcamp-storage/tests/util"
 	"testing"
+
+	"github.com/DATA-DOG/go-sqlmock"
+	"github.com/google/uuid"
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_sqlRepository_Store(t *testing.T) {
